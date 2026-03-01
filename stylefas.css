@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main{
+width: 100%;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.945)10%,rgba(0,0,0,0.5)40%), url("rosales.jpg");
+background-position: center;
+background-size: cover;
+height: 150vh;  
+
+}
+
+.navbar{
+width: 1000px;
+height: 75px;
+margin: auto;
+
+}
+
+.icon{
+width: 0px;
+float: left;
+height: 0px;
+
+}
+
+.logo{
+margin: 0%;
+margin-left: 0%;
+margin-top: 0%;
+padding-right: 250px;
+float: right;
+padding-top: 10px;
+}
+
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+}
+
+.content{
+align-content: center;
+padding-right: 20%;
+padding-top: 0%;
+
+
+}
+
+.glow {
+  color: #000000;
+  text-shadow:
+    0 0 5px #000000,
+    0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #000000;
+}
+
+h1 {
+    padding-top: 1%;
+    padding-right: 10%;
+    text-align: center;
+    color: #d8d515;
+    font-size: 360%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header img {
+  width: 1110%;
+  height: 110px;
+  object-fit: contain;
+}
+
+ui{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ui li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ui li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ui li a:hover{
+    color: blue;
+}
+
+
+.nice{
+margin-left: 96%;
+margin-top: 2px;
+padding-right: 110px;
+
+}
+
+.nice2 {
+margin-left: 0%;
+margin-top: 0px;
+padding-right: 0px;
+padding-top: 100%;
+}
+
+/* Dark Overlay */
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+/* Title */
+.title {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Card Style */
+.card {
+    background: #e6e6e6;
+    color: black;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.card h2 {
+    color: #cecb0d;
+    letter-spacing: 1px;
+}
+
+/* Line under heading */
+.card hr {
+    border: 1px solid #b7babe;
+    width: 80%;
+    margin: 10px auto 20px auto;
+}
+
+.card {
+    background: #e6e6e6;
+    color: black;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    
+    transition: all 0.4s ease;   /* Smooth animation */
+}
+
+/* 🔥 Hover Effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
